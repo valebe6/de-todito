@@ -13,3 +13,13 @@ input{
 
     background-color: white;
 }
+header{
+    background-color: rgb(196, 205, 255);
+    height: 50px;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
