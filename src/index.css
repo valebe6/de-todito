@@ -13,13 +13,76 @@ input{
 
     background-color: white;
 }
-header{
-    background-color: rgb(196, 205, 255);
-    height: 50px;
-    
-}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.enlaceNav{
+    display: flex;
+    text-decoration: none;
+    border: 2px solid rgb(97, 97, 255);
+    color: black;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.rick{
+    text-align: center;
+}
+.enlaceNav:hover{
+    background-color: rgb(97, 97, 255);
+    color: white;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #b79fff;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(135, 95, 255);
+    border-radius: 20px;
+}
+.card img{
+    width: 200px;
+}
+.container_cards{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+.containerBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnCrear{
+    display: flex;
+    border: 1px solid #7749ff;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.btnCrear:hover{
+    background-color: #7749ff;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
 }
